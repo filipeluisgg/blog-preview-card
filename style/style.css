@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 102%;
+}
+
+@font-face {
+    font-family: 'figtree-extra-bold';
+    src: url(../assets/fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'fitgree';
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'fitgree';
+    background-color: rgb(244, 208, 78);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #fff;
+    width: 80%;
+    max-width: 400px;
+    padding: 1.7vw;
+    border-radius: 20px;
+    outline: 1px solid black;
+    box-shadow: 10px 10px 1px black;
+}
+
+#illustration-article {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#box {
+    font-family: 'figtree-extra-bold';
+    background-color: rgb(244, 208, 78);
+    width: max-content;
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    margin: 2vw 0vw;
+}   
+
+main > h1 {
+    font-size: 1.5rem;
+    margin: 2vw 0;
+}
+main > h1 > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main > h1:hover {
+    color: rgb(244, 208, 78);
+}
+
+span {
+    color: rgb(103, 103, 103);
+    margin: 1vw 0;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    margin: 1vw 0;
+}
+
+#footer > img {
+    margin: 1vw 1vw 0 0;
+}
+
